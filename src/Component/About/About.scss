@@ -6,8 +6,11 @@
         background-image: url(./about-hero.jpg);
         background-size: cover;
         // border: 2px solid black;
-        height: 60vh;
+        height: 600px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__hero-title {

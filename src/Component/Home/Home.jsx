@@ -15,7 +15,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="home__hero-summary-container">
-                <p className="home__hero-summary">Educational technology is important because...</p>
+                <p className="home__hero-summary">This section is a brief overview of our educational platform and why we are passionate about this technology.</p>
             </div>
         </section>
     )

@@ -7,7 +7,7 @@ const Header = ()=> {
      <header className="header">
          <div className="header__logo-container">
              <NavLink to='/' className="header__link">
-                <h1 className="header__logo">LOGO HERE</h1>
+                <h1 className="header__logo">Upgrade Arena</h1>
              </NavLink>
          </div>
          <div className="header__link-container">
