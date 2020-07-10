@@ -1,0 +1,26 @@
+// Spacing
+
+@mixin mobile-margin {
+    margin: 0 1rem;
+};
+
+@mixin mobile-padding {
+    padding: 0 1rem;
+}
+
+@mixin tablet-padding {
+    padding: 0 1.5rem;
+}
+
+@mixin tablet-margin {
+    margin: 0 1.5rem;
+}
+
+@mixin desktop-padding {
+    padding: 0 11.25rem;
+}
+
+@mixin center {
+    margin-left: auto;
+    margin-right: auto;
+}

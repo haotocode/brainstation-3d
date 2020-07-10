@@ -1,0 +1,33 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/fonts';
+
+.about {
+    &__hero-container{
+        background-image: url(./about-hero.jpg);
+        background-size: cover;
+        // border: 2px solid black;
+        height: 60vh;
+        width: 100%;
+    }
+
+    &__hero-title {
+        font-family: "SpaceMono-regular";
+    }
+
+    &__why-container{
+        background-color: #f3c623;
+    }
+
+    &__mission-container {
+        background-color: #127681;
+    }
+
+    &__fact-figures-container{
+        background-color: #10375c;
+    }
+    
+    &__section-text{
+        font-family: "SpaceMono-regular";
+        color: #f4f6ff;
+    }
+}

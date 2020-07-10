@@ -1,0 +1,164 @@
+.container {
+    display: flex;
+    background-color: #f4f6ff;
+    height: 100%;
+    width: 100%;
+  
+    img {
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+  
+    &__plans {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      top: 200px;
+  
+      h1 {
+        color: #10375c;
+        font-size: 36px;
+        line-height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 40px;
+        margin-top: 40px;
+      }
+  
+      span {
+        color: #848199;
+        font-size: 22px;
+        line-height: 30px;
+      }
+  
+      &--planOne {
+        background-color: white;
+        height: 600px;
+        width: 400px;
+        margin: 10px;
+        border-radius: 3px;
+  
+        box-shadow: 50px 50px 2px #f3c623;
+  
+        ul {
+          margin-right: 40px;
+          border-top-width: thin;
+          border-top-style: solid;
+          border-top-color: #848199;
+          color: #10375c;
+          font-size: 20px;
+          line-height: 22px;
+          margin-left: 40px;
+          margin-top: 40px;
+  
+          li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #848199;
+            font-weight: bold;
+          }
+        }
+  
+        button {
+          width: 200px;
+          height: 48px;
+          border-radius: 5px;
+          border-style: none;
+          font-size: 20px;
+          font-weight: bold;
+          margin-left: 0 auto;
+          margin-left: 100px;
+          margin-top: 40px;
+          background-color: #f3c623;
+          color: white;
+        }
+      }
+  
+      &--planTwo {
+        left: 300px;
+        background-color: white;
+        height: 600px;
+        width: 400px;
+        margin: 10px;
+        border-radius: 3px;
+        box-shadow: 50px 50px 2px #127681;
+  
+        ul {
+          margin-right: 40px;
+          border-top-width: thin;
+          border-top-style: solid;
+          border-top-color: #848199;
+          color: #10375c;
+          font-size: 20px;
+          line-height: 22px;
+          margin-left: 40px;
+          margin-top: 40px;
+  
+          li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #848199;
+            font-weight: bold;
+          }
+        }
+  
+        button {
+          width: 200px;
+          height: 48px;
+          border-radius: 5px;
+          border-style: none;
+          font-size: 20px;
+          font-weight: bold;
+          margin-left: 0 auto;
+          margin-left: 100px;
+          margin-top: 40px;
+          background-color: #127681;
+          color: white;
+        }
+      }
+  
+      &--planThree {
+        background-color: white;
+        height: 600px;
+        width: 400px;
+        margin: 10px;
+        border-radius: 3px;
+        box-shadow: 50px 50px 2px #10375c;
+  
+        ul {
+          margin-right: 40px;
+          border-top-width: thin;
+          border-top-style: solid;
+          border-top-color: #848199;
+          color: #10375c;
+          font-size: 20px;
+          line-height: 22px;
+          margin-left: 40px;
+          margin-top: 40px;
+  
+          li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #848199;
+            font-weight: bold;
+          }
+        }
+  
+        button {
+          width: 200px;
+          height: 48px;
+          border-radius: 5px;
+          border-style: none;
+          font-size: 20px;
+          font-weight: bold;
+          margin-left: 0 auto;
+          margin-left: 100px;
+          margin-top: 40px;
+          background-color: #10375c;
+          color: white;
+        }
+      }
+    }
+  }
+  

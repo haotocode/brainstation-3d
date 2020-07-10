@@ -1,0 +1,26 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/fonts';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height:10vh;
+    @include tablet-padding;
+
+    &__logo {
+        font-family: "SpaceMono-bold";
+    }
+
+    &__link-container{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-family: "SpaceMono-regular";
+    }
+}
